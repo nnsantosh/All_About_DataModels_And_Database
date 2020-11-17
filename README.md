@@ -26,7 +26,7 @@ Relations                                                                 | No R
 Data is distributed across multiple tables                                | Data is typically merged/nested in few collections.
 Horizantal scaling is difficult or impossible.                            | Both horizontal and vertical scaling is possible.
 Vertical scaling is possible.                                             
-Limitations for lots of read and write queries per second                 | Greate performance for mass read and writes. Except for cases where 
-                                                                            we will update lot of collections regularly.
-                                                                          |                                               
+Limitations for lots of read and write queries per second                 | Greate performance for mass read and writes. 
+                                                                            Except for cases where we will update lot of collections regularly.
+                                                                                                                       
 
