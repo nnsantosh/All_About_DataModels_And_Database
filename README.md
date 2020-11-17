@@ -20,7 +20,7 @@ When to choose between SQLDB vs NoSQL DB?
 It depends on the kind of application you are building and the kind of data that you are storing. 
 
 SQL                                                                       | No SQL
---------------------------------------------------------------------------|-----------------------------------
+--------------------------------------------------------------------------|-----------------------------------------------------------------------
 Data Uses Schemas                                                         | Schema-less
 Relations                                                                 | No Relations
 Data is distributed across multiple tables                                | Data is typically merged/nested in few collections.
@@ -28,5 +28,5 @@ Horizantal scaling is difficult or impossible.                            | Both
 Vertical scaling is possible.                                             
 Limitations for lots of read and write queries per second                 | Greate performance for mass read and writes. Except for cases where 
                                                                             we will update lot of collections regularly.
-
+                                                                          |                                               
 
